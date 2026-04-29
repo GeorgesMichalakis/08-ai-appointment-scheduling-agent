@@ -8,6 +8,29 @@ Book qualified appointments faster and reduce no-shows with smarter reminders.
 
 This is a deployable portfolio demo for Clinics, agencies, consultants, and home-service businesses. It shows a complete AI automation workflow: intake, deterministic scoring, AI-assisted drafting, human approval, and mock publishing to common business systems.
 
+## Before / What We Provide / After
+
+### Before
+
+- Booking requests arrive from Google Calendar, Calendly, Twilio and are reviewed one by one.
+- The team copies details between tools, decides priority manually, and writes repetitive notes or replies from scratch.
+- High-value or risky booking requests can sit in the same queue as low-value work, so follow-up quality depends on who notices first.
+
+### What We Provide
+
+- A deployable React and Express workflow app tailored to Clinics, agencies, consultants, and home-service businesses.
+- An AI scoring and routing engine for booking requests, with deterministic fallback mode and optional live OpenAI Responses API review.
+- Human-in-loop approval screens, generated drafts, audit-friendly timeline, and mock adapters for Google Calendar, Calendly, Twilio, Gmail, Airtable, Zapier.
+- Production-ready handoff assets: Dockerfile, Render config, environment template, tests, and integration payload examples.
+
+### After
+
+- Booking requests are classified, scored, routed to Book next slot, and prepared for review in seconds.
+- The operator receives draft outputs, next-best actions, and integration payloads before anything is sent externally.
+- Approved work is pushed to Google Calendar and Calendly, keeping the source workflow and downstream records aligned.
+
+See [BEFORE_AFTER_DEMO.md](./BEFORE_AFTER_DEMO.md) for a client-ready walkthrough script.
+
 ## Demo Features
 
 - React operations dashboard for booking requests
